@@ -172,7 +172,7 @@ var status13 = 1;  // 1 - online, 7 - invisible
 
 
 user13 = new steamUser();
-user13.logOn({"accountName": username12, "password": password12});
+user13.logOn({"accountName": username13, "password": password13});
 user13.on('loggedOn', () => {
 	if (user13.steamID != null) console.log(user13.steamID + ' - Successfully logged on');
 	user13.setPersona(status13);               
