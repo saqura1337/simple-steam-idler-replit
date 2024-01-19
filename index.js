@@ -196,7 +196,7 @@ user14.on('loggedOn', () => {
 });
 
 
-var games15 = [240];  // Enter here AppIDs of the needed games
+var games15 = [730, 570];  // Enter here AppIDs of the needed games
 var status15 = 1;  // 1 - online, 7 - invisible
 
 
