@@ -175,3 +175,27 @@ user11.on('loggedOn', () => {
 	user11.setPersona(status11);               
 	user11.gamesPlayed(games11);
 });
+
+var games12 = [730];  // Enter here AppIDs of the needed games
+var status12 = 1;  // 1 - online, 7 - invisible
+
+
+user12 = new steamUser();
+user12.logOn({"accountName": username12, "password": password12});
+user12.on('loggedOn', () => {
+	if (user12.steamID != null) console.log(user12.steamID + ' - Successfully logged on');
+	user12.setPersona(status12);               
+	user12.gamesPlayed(games12);
+});
+
+var games13 = [105600, 730, 570, 240, 4000, 550, 322170];  // Enter here AppIDs of the needed games
+var status13 = 1;  // 1 - online, 7 - invisible
+
+
+user13 = new steamUser();
+user13.logOn({"accountName": username13, "password": password13});
+user13.on('loggedOn', () => {
+	if (user13.steamID != null) console.log(user13.steamID + ' - Successfully logged on');
+	user13.setPersona(status13);               
+	user13.gamesPlayed(games13);
+});
