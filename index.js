@@ -223,3 +223,16 @@ user15.on('loggedOn', () => {
 	user15.setPersona(status15);               
 	user15.gamesPlayed(games15);
 });
+
+
+var games16 = [730];  // Enter here AppIDs of the needed games
+var status16 = 1;  // 1 - online, 7 - invisible
+
+
+user16 = new steamUser();
+user16.logOn({"accountName": username16, "password": password16});
+user16.on('loggedOn', () => {
+	if (user16.steamID != null) console.log(user16.steamID + ' - Successfully logged on');
+	user16.setPersona(status16);               
+	user16.gamesPlayed(games16);
+});
