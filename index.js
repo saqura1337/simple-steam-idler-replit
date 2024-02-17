@@ -45,11 +45,14 @@ var status2 = 1;  // 1 - online, 7 - invisible
 user2 = new steamUser();
 user2.logOn({"accountName": username2, "password": password2});
 user2.on('loggedOn', () => {
-	if (user10.steamID != null) console.log(user2.steamID + ' - Successfully logged on');
+	if (user2.steamID != null) console.log(user2.steamID + ' - Successfully logged on');
 	user2.setPersona(status2);               
 	user2.gamesPlayed(games2);
 });
 
+var username3 = process.env.username3;
+var password3 = process.env.password3;
+// var shared_secret = process.env.shared;
 
 var games3 = [730, 570];  // Enter here AppIDs of the needed games
 var status3 = 1;  // 1 - online, 7 - invisible
@@ -62,6 +65,9 @@ user3.on('loggedOn', () => {
 	user3.gamesPlayed(games3);
 });
 
+var username4 = process.env.username4;
+var password4 = process.env.password4;
+// var shared_secret = process.env.shared;
 
 var games4 = [730];  // Enter here AppIDs of the needed games
 var status4 = 1;  // 1 - online, 7 - invisible
@@ -74,6 +80,9 @@ user4.on('loggedOn', () => {
 	user4.gamesPlayed(games4);
 });
 
+var username5 = process.env.username5;
+var password5 = process.env.password5;
+// var shared_secret = process.env.shared;
 
 var games5 = [252490];  // Enter here AppIDs of the needed games
 var status5 = 1;  // 1 - online, 7 - invisible
@@ -81,11 +90,14 @@ var status5 = 1;  // 1 - online, 7 - invisible
 user5 = new steamUser();
 user5.logOn({"accountName": username5, "password": password5});
 user5.on('loggedOn', () => {
-	if (user13.steamID != null) console.log(user5.steamID + ' - Successfully logged on');
+	if (user5.steamID != null) console.log(user5.steamID + ' - Successfully logged on');
 	user5.setPersona(status5);               
 	user5.gamesPlayed(games5);
 });
 
+var username6 = process.env.username6;
+var password6 = process.env.password6;
+// var shared_secret = process.env.shared;
 
 var games6 = [700330, 252490];  // Enter here AppIDs of the needed games
 var status6 = 1;  // 1 - online, 7 - invisible
@@ -98,6 +110,9 @@ user6.on('loggedOn', () => {
 	user6.gamesPlayed(games6);
 });
 
+var username7 = process.env.username7;
+var password7 = process.env.password7;
+// var shared_secret = process.env.shared;
 
 var games7 = [700330, 252490];  // Enter here AppIDs of the needed games
 var status7 = 1;  // 1 - online, 7 - invisible
@@ -110,6 +125,9 @@ user7.on('loggedOn', () => {
 	user7.gamesPlayed(games7);
 });
 
+var username8 = process.env.username8;
+var password8 = process.env.password8;
+// var shared_secret = process.env.sared;
 
 var games8 = [730];  // Enter here AppIDs of the needed games
 var status8 = 1;  // 1 - online, 7 - invisible
@@ -122,6 +140,9 @@ user8.on('loggedOn', () => {
 	user8.gamesPlayed(games8);
 });
 
+var username9 = process.env.username9;
+var password9 = process.env.password9;
+// var shared_secret = process.env.shared;
 
 var games9 = [730];  // Enter here AppIDs of the needed games
 var status9 = 1;  // 1 - online, 7 - invisible
@@ -134,6 +155,9 @@ user9.on('loggedOn', () => {
 	user9.gamesPlayed(games9);
 });
 
+var username10 = process.env.username10;
+var password10 = process.env.password10;
+// var shared_secret = process.env.shared;
 
 var games10 = [730];  // Enter here AppIDs of the needed games
 var status10 = 1;  // 1 - online, 7 - invisible
@@ -146,7 +170,9 @@ user10.on('loggedOn', () => {
 	user10.gamesPlayed(games10);
 });
 
-
+var username11 = process.env.username11;
+var password11 = process.env.password11;
+// var shared_secret = process.env.shared;
 
 var games11 = [730];  // Enter here AppIDs of the needed games
 var status11 = 1;  // 1 - online, 7 - invisible
