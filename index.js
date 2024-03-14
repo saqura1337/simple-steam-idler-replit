@@ -213,7 +213,7 @@ var username18 = process.env.username18;
 var password18 = process.env.password18;
 // var shared_secret = process.env.shared;
 
-var games18 = [730];  // Enter here AppIDs of the needed games
+var games18 = [252490];  // Enter here AppIDs of the needed games
 var status18 = 1;  // 1 - online, 7 - invisible
 
 user18 = new steamUser();
