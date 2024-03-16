@@ -79,21 +79,6 @@ user5.on('loggedOn', () => {
 	user5.gamesPlayed(games5);
 });
 
-var username7 = process.env.username7;
-var password7 = process.env.password7;
-// var shared_secret = process.env.shared;
-
-var games7 = [700330, 252490];  // Enter here AppIDs of the needed games
-var status7 = 1;  // 1 - online, 7 - invisible
-
-user7 = new steamUser();
-user7.logOn({"accountName": username7, "password": password7});
-user7.on('loggedOn', () => {
-	if (user7.steamID != null) console.log(user7.steamID + ' - Successfully logged on');
-	user7.setPersona(status7);               
-	user7.gamesPlayed(games7);
-});
-
 
 var username9 = process.env.username9;
 var password9 = process.env.password9;
